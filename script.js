@@ -35,14 +35,14 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Software Engineer", "Web Designer", "Web Developer", "Cloud Engineer", "Freelancer"],
+        strings: ["Web Designing", "Web Development", "Software Engineering", "Cloud Computing"],
         typeSpeed: 60,
         backSpeed: 30,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Software Engineer", "Web Designer", "Web Developer", "Cloud Engineer", "Freelancer"],
+        strings: ["Web Designing", "Web Development", "Software Engineering", "Cloud Computing"],
         typeSpeed: 60,
         backSpeed: 30,
         loop: true
@@ -70,3 +70,8 @@ $(document).ready(function(){
         }
     });
 });
+
+// Form submit response
+function myFunc(){
+    alert("You can call or mail me on given contact details because, form is not working right now. Sorry!");
+};
